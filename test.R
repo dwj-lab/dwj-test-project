@@ -5,3 +5,7 @@
    geom_point(size = 2) +
    scale_color_brewer(palette = "Dark2") +
    theme_bw()
+
+ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) + 
+    geom_point(size = 2) + 
+    theme_bw()
